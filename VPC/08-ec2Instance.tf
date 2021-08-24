@@ -19,7 +19,7 @@
 
 # Create an AWS EC2 Instance with any startup script
 
-resource "aws_instance" "Jenkins" {
+resource "aws_instance" "JenkinServer" {
  # in case EC2 instance to be destroyed only , count=0
   count = 1
   ami = var.ami
